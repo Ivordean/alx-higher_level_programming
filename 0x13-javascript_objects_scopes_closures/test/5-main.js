@@ -1,0 +1,1 @@
+root@c309f8c1b816:/alx-higher_level_programming/0x13-javascript_objects_scopes_closures/test#
