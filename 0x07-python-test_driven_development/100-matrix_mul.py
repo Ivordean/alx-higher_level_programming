@@ -36,6 +36,7 @@ def get_matrix_sizes(matrix_1, matrix_2, name_1, name_2):
         raise TypeError(funcs[2](name_1))
     if not all(map(lambda x: isinstance(x, list), matrix_2)):
         raise TypeError(funcs[2](name_2))
+<<<<<<< HEAD
     if all(map(lambda x: len(x) == 0, matrix_1)):
         raise ValueError(funcs[1](name_1))
     if all(map(lambda x: len(x) == 0, matrix_2)):
@@ -77,3 +78,6 @@ def matrix_mul(m_a, m_b):
                 row_res.append(sum(list(val)))
             res.append(row_res)
         return 
+=======
+
+>>>>>>> 94e014a5e4626d00985cd1725c8fb31bd1b68628
