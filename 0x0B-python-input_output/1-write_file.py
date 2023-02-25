@@ -1,11 +1,9 @@
 #!/usr/bin/python3
-"""
-function that write a string to text (UTF8) & return total of character written
-"""
+"""This module defines a file-writing function."""
 
 
 def write_file(filename="", text=""):
-    """ module write_file
+    """Writes a string to a UTF8 text file
     """
-    with open(filename, 'w') as f:
+    with open(filename, "w", encoding="utf-8") as f:
         return f.write(text)
