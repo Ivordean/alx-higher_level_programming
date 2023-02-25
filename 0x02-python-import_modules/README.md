@@ -1,1 +1,1 @@
-This is my readme.md file for python imports
+# Solutions to tasks on modules
