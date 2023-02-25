@@ -1,1 +1,1 @@
-This is my readme.md file for the javascript project
+# Solutions to tasks on JavaScript - Objects, Scopes and Closures

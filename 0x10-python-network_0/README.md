@@ -1,2 +1,1 @@
-+ Done this project finally.
-- Commits all at once after test.
+# Solutions to tasks on Python - Network #0
