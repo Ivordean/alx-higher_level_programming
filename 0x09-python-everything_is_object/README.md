@@ -1,1 +1,1 @@
-This is my readme.md project for python everything is object  
+# Solutions to Python - Everything is object
