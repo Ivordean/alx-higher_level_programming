@@ -1,1 +1,1 @@
-This is my README.md for the python sql introduction
+# Solutions to SQL - Introduction

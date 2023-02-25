@@ -1,1 +1,1 @@
-This is README.md for the python object relational mapping
+# Solutions to tasks on Python - Object-relational mapping
