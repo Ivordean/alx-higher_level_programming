@@ -1,25 +1,12 @@
 #!/usr/bin/python3
+
+
 def roman_to_int(roman_string):
-    if (roman_string is None) or (type(roman_string) != str):
+    if not roman_string or type(roman_string) != str:
         return 0
-
-    roman = 0
-    nums = {
-        'I': 1,
-        'V': 5,
-        'X': 10,
-        'L': 50,
-        'C': 100,
-        'D': 500,
-        'M': 1000
-    }
-
-    limit = len(roman_string)
-    for ch in range(0, limit):
-        if ch == len(roman_string) - 1:
-            roman += nums[roman_string[ch]]
-        elif nums[roman_string[ch]] >= nums[roman_string[ch + 1]]:
-            roman += nums[roman_string[ch]]
-        else:
-            roman -= nums[roman_string[ch]]
-    return roman
+    total = 0
+    digits = {'M': 1000, 'D': 500, 'C': 100, 'L': 50, 'X': 10, 'V': 5, 'I': 1}
+    for roman in reversed(roman_string):
+        arabic = digits[roman]
+        total += arabic if total < arabic * 5 else -arabic
+    return total
