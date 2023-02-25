@@ -1,1 +1,1 @@
-This is my readme for the project python inheritance
+# Solution to tasks on Python - Inheritance
