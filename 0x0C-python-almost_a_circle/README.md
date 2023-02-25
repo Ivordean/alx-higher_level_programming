@@ -1,1 +1,1 @@
-0xC Python almost a circle 
+# Solution to tasks on Python - Almost a circle
