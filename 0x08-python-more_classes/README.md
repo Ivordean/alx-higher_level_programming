@@ -1,1 +1,1 @@
-This is my readme.md for the python more classes and objects project
+# Add solution to tasks on 0x08. Python - More Classes and Objects
